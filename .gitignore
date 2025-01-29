@@ -1,0 +1,52 @@
+# Target and build output
+target/
+**/target/
+programs/**/target/
+
+# Node modules (if using frontend like Next.js)
+node_modules/
+frontend/node_modules/
+
+# IDE-specific files
+.idea/
+.vscode/
+*.swp
+
+# Generated files
+**/anchor.lock
+.DS_Store
+*.log
+*.bak
+
+# Compiled binaries
+programs/**/dist/
+
+# Solana keypair files
+*.json
+**/id.json
+**/keypair.json
+*wallet.json
+
+# Anchor cache and localnet
+.anchor/
+.migrations/
+
+# Rust-specific
+**/Cargo.lock
+**/*.rs.bk
+*.rs.bk
+
+# Generated artifacts
+target/idl/
+target/types/
+frontend/src/idl/
+
+# Other
+.env
+.env.local
+
+anchor_vault_old
+
+
+
+
