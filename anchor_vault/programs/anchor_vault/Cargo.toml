@@ -9,7 +9,7 @@ crate-type = ["cdylib", "lib"]
 name = "anchor_vault"
 
 [features]
-default = []
+default = [""]
 cpi = ["no-entrypoint"]
 no-entrypoint = []
 no-idl = []
