@@ -16,7 +16,7 @@ import {
 } from "@metaplex-foundation/mpl-bubblegum";
 // import { createNft } from "@metaplex-foundation/mpl-token-metadata";
 // import { mplToolbox } from "@metaplex-foundation/mpl-toolbox";
-import wallet from "../Turbin3-wallet.json";
+import wallet from "./Turbin3-wallet.json";
 
 const umi: Umi = createUmi("https://api.devnet.solana.com");
 

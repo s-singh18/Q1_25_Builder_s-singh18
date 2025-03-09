@@ -5,13 +5,18 @@ resolution = true
 skip-lint = false
 
 [programs.localnet]
-thirdspace = "2GdsDdH2jbDMVs7k5jPKZur2hEMaPm5sJA2DHMtRs8zN"
+thirdspace = "8YL3rGxzuBSJ2DuFioiwA9dRSSf5MahEFpxnSFzN1TJ8"
+
+
+[programs.devnet]
+# vault = "2GdsDdH2jbDMVs7k5jPKZur2hEMaPm5sJA2DHMtRs8zN"
+vault = "2GdsDdH2jbDMVs7k5jPKZur2hEMaPm5sJA2DHMtRs8zN"
 
 [registry]
 url = "https://api.apr.dev"
 
 [provider]
-cluster = "Localnet"
+cluster = "https://api.devnet.solana.com"
 wallet = "~/.config/solana/id.json"
 
 [scripts]
